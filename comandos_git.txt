@@ -1,0 +1,44 @@
+_Comando para nos identificar-mos localmente no git
+
+git config --global user.name "Fulano da Silva"
+git config --global user.email fulanodasilva@fulano.com
+
+_Para transformar um diretorio em um repositorio Git
+
+git init
+
+_Mostrando a situação dos arquivos dentro do repositorio git
+
+git status
+
+_Exibindo historico de alterações gravadas no repositório
+
+git log
+
+_Comando para apontar o repositorio local, para o repositorio remoto
+
+git remote add origin  https://github.com/sonardevplus/citacoes.git
+
+_Comando para alterar a apontação do repositorio remoto em relação ao local
+	
+git remote set-url origin https://github.com/sonardevplus/citacoes.git
+
+_Comando usado para adicionar um arquivo para ser rasterizado pelo git
+
+git add arquivo.extensao
+
+_Comando usado para adicionar TODOS os arquivos para rasterizar
+
+git add .   <---pontofinal
+
+_Comando para gravar as alteracoes do arquivo para depois enviar
+ para o repositorio remoto
+
+git commit -m "Mensagem referente ao commit"
+
+_Comando usado para enviar os arquivos commitados localmente
+ para o repositorio remoto
+
+git push origin master
+
+
