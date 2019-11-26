@@ -42,3 +42,8 @@ _Comando usado para enviar os arquivos commitados localmente
 git push origin master
 
 
+_Clonar um repositoria existente
+
+git clone https://github.com/sonardevplus/casa_do_codigo.git
+
+
