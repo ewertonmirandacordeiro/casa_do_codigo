@@ -1,0 +1,5 @@
+1 - Etapas concluidas
+- baixar aplicação
+- clonar repositorio remoto
+- fazer commit
+ 
